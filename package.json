@@ -1,0 +1,33 @@
+{
+  "name": "create-slimplate",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A simple web-app ecosystem for people that are tired of a bunch of junk on their plate.",
+  "scripts": {
+    "test": "npx -y jest",
+    "build": "npx -y esbuild --platform=node --format=cjs --outdir=dist create.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "rpgwaiter"
+    },
+    {
+      "name": "David Konsumer",
+      "email": "konsumer@jetboystudio.com",
+      "url": "http://konsumer.js.org/"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "degit": "^2.8.4",
+    "enquirer": "^2.3.6"
+  },
+  "files": [
+    "dist/create.js"
+  ],
+  "bin": {
+    "slimplate": "dist/create.js"
+  }
+}
