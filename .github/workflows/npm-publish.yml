@@ -13,8 +13,6 @@ jobs:
           node-version: '17.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
-      - run: npm publish || true
-      - run: sed 's/create-slimplate/slimplate/g' -i package.json
-      - run: npm publish || true
+      - run: npm publish --workspaces
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

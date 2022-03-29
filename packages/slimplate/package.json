@@ -1,0 +1,24 @@
+{
+  "name": "create-slimplate",
+  "version": "0.0.10",
+  "description": "A simple web-app ecosystem for people that are tired of a bunch of junk on their plate.",
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "rpgwaiter"
+    },
+    {
+      "name": "David Konsumer",
+      "email": "konsumer@jetboystudio.com",
+      "url": "http://konsumer.js.org/"
+    }
+  ],
+  "license": "MIT",
+  "bin": {
+    "slimplate": "warn.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slimplate/create.git"
+  }
+}
