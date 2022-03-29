@@ -5,7 +5,7 @@
     "packages/create-slimplate",
     "packages/slimplate"
   ],
-  "version": "0.0.12",
+  "version": "0.0.13",
   "scripts": {
     "release": "npm version patch && npm version patch --workspaces && git commit -am $(node -e 'console.log(process.env.npm_package_version)') && git tag v$(node -e 'console.log(process.env.npm_package_version)')"
   }
