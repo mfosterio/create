@@ -4,5 +4,6 @@
   "workspaces": [
     "packages/create-slimplate",
     "packages/slimplate"
-  ]
+  ],
+  "version": "0.0.1"
 }
