@@ -3,9 +3,7 @@
   "version": "0.0.2",
   "description": "A simple web-app ecosystem for people that are tired of a bunch of junk on their plate.",
   "scripts": {
-    "test": "npx -y jest",
-    "build": "npx -y esbuild --platform=node --format=cjs --outdir=dist create.js",
-    "prepublishOnly": "npm run build"
+    "test": "npx -y jest"
   },
   "keywords": [],
   "contributors": [
@@ -27,6 +25,6 @@
     "dist/create.js"
   ],
   "bin": {
-    "slimplate": "dist/create.js"
+    "slimplate": "create.js"
   }
 }
