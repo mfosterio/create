@@ -1,0 +1,1 @@
+packages/create-slimplate/README.md
