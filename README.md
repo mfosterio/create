@@ -5,5 +5,5 @@ A simple web-app ecosystem for people that are tired of a bunch of junk on their
 ## get started
 
 ```sh
-npm init slimplate mycoolapp
+npm init slimplate@latest mycoolapp
 ```
