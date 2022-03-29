@@ -7,6 +7,6 @@
   ],
   "version": "0.0.17",
   "scripts": {
-    "release": "VERSION=$(npm version patch) && npm version patch --workspaces && git commit -am $VERSION && git tag v${VERSION}"
+    "release": "VERSION=$(npm version patch) && npm version patch --workspaces && git commit -am $VERSION && git tag v${VERSION} && git push --follow-tags"
   }
 }
