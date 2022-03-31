@@ -1,6 +1,7 @@
 {
   "name": "create-slimplate",
   "version": "0.0.18",
+  "type": "module",
   "description": "A simple web-app ecosystem for people that are tired of a bunch of junk on their plate.",
   "keywords": [],
   "contributors": [
@@ -15,14 +16,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "degit": "^2.8.4",
-    "enquirer": "^2.3.6"
+    "chalk": "^5.0.1"
   },
   "files": [
     "dist/create.js"
   ],
   "bin": {
-    "slimplate": "create.js"
+    "slimplate": "create.mjs"
   },
   "repository": {
     "type": "git",
